@@ -1,0 +1,11 @@
+{%- if has_pros_and_cons -%}
+<h2>{{ 'product.pros_and_cons' | t }}</h2>
+<ul class="l4ch plus">
+    {%- for pro in pros -%}
+    <li>{{ pro | remove: '<p>' | remove: '</p>' | strip }}</li>
+    {%- endfor -%}
+    {%- for con in cons -%}
+    <li class="overlay-content">{{ con | remove: '<p>' | remove: '</p>' | strip }}</li>
+    {%- endfor -%}
+</ul>
+{%- endif %}

@@ -1,0 +1,7 @@
+.ge{
+    display: inline;
+    flex-direction: row;
+    border: 1px solid;
+    flex-grow: inherit;
+    align-items: center;
+}
