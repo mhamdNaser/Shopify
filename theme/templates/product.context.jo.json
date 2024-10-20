@@ -1,0 +1,1 @@
+{"parent":"product.json","context":{"market":"jo"},"sections":{"main-product":{"settings":{"pros":"{{ product.metafields.shopify[\"color-pattern\"] | metafield_tag: field: 'label' }}","cons":"{{ product.metafields.shopify[\"color-pattern\"] | metafield_tag: field: 'label' }}"},"blocks":{}}}}
